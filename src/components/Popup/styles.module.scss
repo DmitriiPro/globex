@@ -1,0 +1,129 @@
+.popup {
+  &Overlay {
+    background-color: rgba(188, 195, 208, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  &Close {
+    cursor: pointer;
+    position: absolute;
+    top: 29px;
+    right: 24px;
+    transition: opacity 300ms ease-in-out;
+
+    &:hover {
+      opacity: .7;
+    }
+
+    @media (max-width: 440px) {
+      width: 16px;
+      height: 16px;
+      top: 15px;
+      right: 15px;
+    }
+  }
+
+  &Section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @media (max-width: 440px) {
+      gap: 20px;
+      padding: 20px 15px;
+    }
+
+    // @media (max-width: 360px) {
+    //   padding: 12px 6px;
+    //   gap: 4px;
+    // }
+  }
+
+  &Text {
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    @media (max-width: 440px) {
+      display: none;
+      // font-size: 16px;
+      // line-height: 18px;
+    }
+  }
+
+  &Textinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    @media (max-width: 440px) {
+      // gap: 14px;
+    }
+  }
+
+  &Wrapper {
+    display: flex;
+    gap: 40px;
+
+    @media (max-width: 440px) {
+      gap: unset;
+      // gap: 15px;
+    }
+
+    @media (max-width: 360px) {
+      // gap: 4px;
+    }
+  }
+
+  &Title {
+    color: #262c40;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+
+    @media (max-width: 440px) {
+      // font-size: 18px;
+    }
+  }
+
+  &Block {
+    color: #262c40;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+
+  &Span {
+    color: #8189a3;
+    font-size: 16px;
+    line-height: 18px;
+
+    
+    @media (max-width: 360px) {
+      // font-size: 14px;
+    }
+  }
+
+  &Info {
+    margin-bottom: 12px;
+  }
+}

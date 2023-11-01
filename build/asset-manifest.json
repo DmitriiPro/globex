@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75c4944c.css",
+    "main.js": "/static/js/main.d076dfbf.js",
+    "static/media/proximanova_bold-webfont.woff": "/static/media/proximanova_bold-webfont.ce9a56bc7ebda4cd273b.woff",
+    "static/media/proximanova_regular-webfont.woff": "/static/media/proximanova_regular-webfont.c850ea71a8ef8831c326.woff",
+    "static/media/proximanova_regular-webfont.woff2": "/static/media/proximanova_regular-webfont.37131cb03723c68d791c.woff2",
+    "static/media/proximanova_bold-webfont.woff2": "/static/media/proximanova_bold-webfont.58e775d39af9a469f519.woff2",
+    "static/media/phone.svg": "/static/media/phone.4c7a1c49138d98d3065f.svg",
+    "static/media/close.svg": "/static/media/close.480f472a0589441854d32b293f0808e3.svg",
+    "static/media/search.svg": "/static/media/search.c6d20e5c54387d2e34a5b3754a5df315.svg",
+    "static/media/email.svg": "/static/media/email.d779263baa80491321ed.svg",
+    "index.html": "/index.html",
+    "main.75c4944c.css.map": "/static/css/main.75c4944c.css.map",
+    "main.d076dfbf.js.map": "/static/js/main.d076dfbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75c4944c.css",
+    "static/js/main.d076dfbf.js"
+  ]
+}
